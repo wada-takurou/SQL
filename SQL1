@@ -1,0 +1,10 @@
+mysql>CREATE DATABASE rezodb;
+
+mysql>USE rezobd;
+
+mysql>CREATE TABLE item_category(`物理名` varchar(20),`データ型` varchar(20),`属性` varchar(30),`主キー`varchar(1));
+
+mysql>INSERT INTO item_category VALUES('category_id','INT','NOT NULL,AUTO_INCREMENT','○');
+mysql>INSERT INTO item_category VALUES('category_name','VARCHAR(256)','NOT NULL','');
+
+mysql>select*from item_category;
