@@ -1,0 +1,10 @@
+
+create table item_category(category_id int,category_name varchar(256));
+
+insert into item_category values(1,'家具');
+
+insert into item_category values(2,'食品');
+
+insert into item_category values(3,'本');
+
+select from item_category;
